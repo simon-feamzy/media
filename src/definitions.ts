@@ -1,8 +1,4 @@
-declare module '@capacitor/core' {
-  interface PluginRegistry {
-    MediaPlugin: MediaPluginProtocol;
-  }
-}
+
 
 export interface MediaSaveOptions {
   path: string;
